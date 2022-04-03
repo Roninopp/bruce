@@ -86,11 +86,11 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Sophia News 🙋‍♀️ ", url=f"https://t.me/SophiaUpdates"),
-        InlineKeyboardButton(text="Support Group 💬 ", url=f"https://t.me/SophiaSupport_Official"),
+        InlineKeyboardButton(text="Sophia News 🙋‍♀️ ", url=f"https://t.me/liu_WULANG_MONKES"),
+        InlineKeyboardButton(text="Support Group 💬 ", url=f"https://t.me/liu_WULANG_MONKES"),
     ],
     [
-        InlineKeyboardButton(text="➕ Add me to your Group ➕", url="t.me/SophiaSLBot?startgroup=true"),   
+        InlineKeyboardButton(text="➕ Add me to your Group ➕", url="t.me/The_Bruce_leebot?startgroup=true"),   
     ],
 ]
 
@@ -98,7 +98,7 @@ HELP_STRINGS = """
 Hi Boss! I'm <b>Sophia</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you.
 """
 
-DONATE_STRING = """ Join Updates Channel @SophiaUpdates | Support Group @SophiaSupport_Official"""
+DONATE_STRING = """ Join Updates Channel @RoninXJin_updates | Support Group @RONIN_FIGHTERS_FD"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -338,16 +338,16 @@ def sophia_about_callback(update, context):
     query = update.callback_query
     if query.data == "sophia_":
         query.message.edit_text(
-            text=""" My name is *Sophia*, I have been written with Pyrogram and Telethon.. I'm online since 10 June 2021 and is constantly updated!
+            text=""" My name is *BRUCE LEE*, I have been written with Pyrogram and Telethon.. I'm online since 10 June 2021 and is constantly updated!
 *Bot Version: 3.0*
 \n*Bot Developers:*
 -  @dihanrandila
 -  @InukaASiTH
-\n* Updates Channel:* @SophiaUpdates
-* Support Chat:* @SophiaSupport_Official
+\n* Updates Channel:* @RoninXJin_updates
+* Support Chat:* @RoninXJin_updates
                  \n\n* And finally special thanks of gratitude to all my users who relied on me for managing their groups, I hope you will always like me; My developers are constantly working to improve me!
                  \n\n *Licensed under the GNU Affero General Public Lisence v3.0*
-                 \n© 2020 - 2021 @SophiaSLBot. All Rights Reserved """,
+                 \n© 2020 - 2021 @RoninXJin_updates. All Rights Reserved """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -382,8 +382,8 @@ def sophia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Admins 👮‍♂️", callback_data="sophia_admin"),
-                    InlineKeyboardButton(text="Notes 📑", callback_data="sophia_notes"),
+                    InlineKeyboardButton(text="Admins 👮‍♂️", callback_data="Bruce lee_admin"),
+                    InlineKeyboardButton(text="Notes 📑", callback_data="Bruce lee_notes"),
                  ],
                  [
                     InlineKeyboardButton(text="Support 👨‍🔧", callback_data="sophia_support"),
@@ -433,8 +433,8 @@ def sophia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support Group", url="t.me/dihan_official"),
-                    InlineKeyboardButton(text="Updates Channel", url="t.me/dihanofficial"),
+                    InlineKeyboardButton(text="Support Group", url="https://t.me/liu_WULANG_MONKES"),
+                    InlineKeyboardButton(text="Updates Channel", url="https://t.me/liu_WULANG_MONKES"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="sophia_basichelp"),
@@ -446,13 +446,13 @@ def sophia_about_callback(update, context):
     elif query.data == "sophia_credit":
         query.message.edit_text(
             text=f"*Credit For Sophia's Devs*\n"
-            f"\nHere Some Developers Helping in Making The Sophia Bot",
+            f"\nHere Some Developers Helping in Making The Bruce lee Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Dihan", url="t.me/dihanrandila"),
-                    InlineKeyboardButton(text="Inuka", url="t.me/InukaASiTH"),
+                    InlineKeyboardButton(text="Dihan", url="https://t.me/liu_WULANG_MONKES"),
+                    InlineKeyboardButton(text="Inuka", url="https://t.me/liu_WULANG_MONKES"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="sophia_basichelp"),
@@ -490,7 +490,7 @@ def Source_about_callback(update, context):
                     InlineKeyboardButton(text="Terms And Conditions 📄 ", url=f"https://telegra.ph/Terms-and-Conditions-08-21"),
                   ],
                   [
-                    InlineKeyboardButton(text="💾 Source Code", url=f"https://github.com/dihanofficial/SophiaBot"),
+                    InlineKeyboardButton(text="💾 Source CHANNEL", url=f"https://t.me/liu_WULANG_MONKES"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="source_back")
