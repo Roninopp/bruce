@@ -559,7 +559,7 @@ def get_help(update: Update, context: CallbackContext):
             )
             + HELPABLE[module].__help__
         )
-        send_help(hu
+        send_help(
             chat.id,
             text,
             InlineKeyboardMarkup(
