@@ -625,6 +625,13 @@ def baka(update, context):
 
 
 @run_async
+def vpussy(update, context):
+    msg = update.effective_message
+    target = "pussy"
+    msg.reply_video(nekos.img(target))
+
+
+@run_async
 def dva(update, context):
     chat_id = update.effective_chat.id
     if not update.effective_message.chat.type == "private":
@@ -695,6 +702,7 @@ TITSGIF_HANDLER = CommandHandler("titsgif", titsgif)
 ERO_HANDLER = CommandHandler("ero", ero)
 SMUG_HANDLER = CommandHandler("smug", smug)
 BAKA_HANDLER = CommandHandler("baka", baka)
+VPUSSY_HANDLER = CommandHandler("vpussy", pussy)
 DVA_HANDLER = CommandHandler("dva", dva)
 
 
@@ -752,6 +760,7 @@ dispatcher.add_handler(TITSGIF_HANDLER)
 dispatcher.add_handler(ERO_HANDLER)
 dispatcher.add_handler(SMUG_HANDLER)
 dispatcher.add_handler(BAKA_HANDLER)
+dispatcher.add_handler(VPUSSY_HANDLER)
 dispatcher.add_handler(DVA_HANDLER)
 
 __handlers__ = [
@@ -809,6 +818,7 @@ __handlers__ = [
     ERO_HANDLER,
     SMUG_HANDLER,
     BAKA_HANDLER,
+    VPUSSY_HANDLER,
     DVA_HANDLER,
 ]
 
