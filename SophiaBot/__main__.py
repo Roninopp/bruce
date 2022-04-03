@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there! My name is <b>Sophia.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"""
+PM_START_TEXT = """Hey there! My name is <b>Bruce lee.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"""
 
 buttons = [
     [
@@ -86,16 +86,16 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Sophia News 🙋‍♀️ ", url=f"https://t.me/liu_WULANG_MONKES"),
-        InlineKeyboardButton(text="Support Group 💬 ", url=f"https://t.me/liu_WULANG_MONKES"),
+        InlineKeyboardButton(text="BRUCEELEE news", url=f"https://t.me/liu_WULANG_MONKES"),
+        InlineKeyboardButton(text="MY💖BROTHER", url=f"https://t.me/FANTASTICFIGHTERBOT"),
     ],
     [
-        InlineKeyboardButton(text="➕ Add me to your Group ➕", url="t.me/The_Bruce_leebot?startgroup=true"),   
+        InlineKeyboardButton(text="💥 Add me to your Group 💥", url="t.me/The_Bruce_leebot?startgroup=true"),   
     ],
 ]
 
 HELP_STRINGS = """
-Hi Boss! I'm <b>Sophia</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you.
+Hi Boss! I'm <b>Bruce</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you.
 """
 
 DONATE_STRING = """ Join Updates Channel @RoninXJin_updates | Support Group @RONIN_FIGHTERS_FD"""
@@ -559,7 +559,7 @@ def get_help(update: Update, context: CallbackContext):
             )
             + HELPABLE[module].__help__
         )
-        send_help(
+        send_help(hu
             chat.id,
             text,
             InlineKeyboardMarkup(
