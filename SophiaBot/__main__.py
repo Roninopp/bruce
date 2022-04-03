@@ -78,7 +78,7 @@ PM_START_TEXT = """Hey there! My name is <b>Bruce lee.</b>\nI can help manage yo
 
 buttons = [
     [
-        InlineKeyboardButton(text=" Commands Help ❓", callback_data="help_back"),
+        InlineKeyboardButton(text=" COMMANDS Help ❓", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
@@ -90,7 +90,7 @@ buttons = [
         InlineKeyboardButton(text="MY💖BROTHER", url=f"https://t.me/FANTASTICFIGHTERBOT"),
     ],
     [
-        InlineKeyboardButton(text="💥 Add me to your Group 💥", url="t.me/The_Bruce_leebot?startgroup=true"),   
+        InlineKeyboardButton(text="💥 Add me to your Group 💥", url="t.me/AVIVEKbot?startgroup=true"),   
     ],
 ]
 
