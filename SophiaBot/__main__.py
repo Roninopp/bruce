@@ -90,6 +90,9 @@ buttons = [
         InlineKeyboardButton(text="MY💖BROTHER", url=f"https://t.me/FANTASTICFIGHTERBOT"),
     ],
     [
+       InlineKeyboardButton(text="😃CHIT CHAT😃", url=f"https://t.me/Ronin_Fighters_Fd"),
+    ],
+    [
         InlineKeyboardButton(text="💥 Add me to your Group 💥", url="t.me/AVIVEKbot?startgroup=true"),   
     ],
 ]
