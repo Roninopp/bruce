@@ -23,6 +23,6 @@ __help__ = """
 - /reload - Refresh admin list
 
 =>>   *Use*
-1) Add @SophiaSLBot in your group to admin with all permission
-2) Add Assistant I'd to your group @DihanOfficialAssistant
+1) Add @FANTASTICFIGHTERBOT in your group to admin with all permission
+2) Add Assistant I'd to your group @RONIN_assiant
 """
