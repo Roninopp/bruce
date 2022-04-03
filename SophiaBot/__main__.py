@@ -78,7 +78,7 @@ PM_START_TEXT = """Hey there! My name is <b>Bruce lee.</b>\nI can help manage yo
 
 buttons = [
     [
-        InlineKeyboardButton(text=" COMMANDS Help ❓", callback_data="help_back"),
+        InlineKeyboardButton(text="🔥 ALL COMMANDS 🔥", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
