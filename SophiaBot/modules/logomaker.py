@@ -90,7 +90,7 @@ async def lego(event):
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @SophiaUpdates, {e}')
+   await event.reply(f'Error Go to Help From  @Ronin_Fighters_Fd, {e}')
 
 
 
@@ -125,11 +125,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="white")
     fname2 = "SophiaLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @SophiaSLBot 🙋‍♀️")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By BRUCE LEE ")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @SophiaUpdates, {e}')
+   await event.reply(f'Error Go to Help From  @LIU_WULANG_MONKES, {e}')
 
 
 @register(pattern="^/logo ?(.*)")
@@ -163,11 +163,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "SophiaLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @SophiaSLBot ⚡️")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By BRUCE lee ⚡️")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @SophiaUpdates , {e}')
+   await event.reply(f'Error Go to Help From  @liu_wulang_monkes , {e}')
 
 @register(pattern="^/biglogo ?(.*)")
 async def lego(event):
@@ -200,11 +200,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "Sophia.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @SophiaSLBot ⚡️")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By BRUCE lee ⚡️")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @SophiaUpdates, {e}')
+   await event.reply(f'Error Go to Help From  @liu_wulang_monkes, {e}')
 
    
 @register(pattern="^/wlogo ?(.*)")
@@ -238,11 +238,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="white", stroke_width=0, stroke_fill="white")
     fname2 = "Sophia.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @SophiaSLBot ")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By BRUCE lee ")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @SophiaUpdates, {e}')
+   await event.reply(f'Error Go to Help From  @liu_wulng_monkes, {e}')
 
 
 
@@ -260,6 +260,6 @@ __help__ = """
  - /biglogo text :  Create your logo Bigger Than `logo`
  - /wlogo text :  Create your logo with your name
 
-Powerted By @SophiaUpdates &  Dihan Official 
+Powerted By @liu_WULANG_MONKES &  Team 『Ｓａｍｕｒａｉ』
  """
 __mod_name__ = "Logo Maker"
