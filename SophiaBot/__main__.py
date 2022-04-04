@@ -430,7 +430,7 @@ def sophia_about_callback(update, context):
         )
     elif query.data == "sophia_support":
         query.message.edit_text(
-            text="* Sophia's Updates News & Supports*"
+            text="* Bruce's Updates News & Supports*"
             "\nJoin Support Group & Updates Channel",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -448,14 +448,14 @@ def sophia_about_callback(update, context):
         )
     elif query.data == "sophia_credit":
         query.message.edit_text(
-            text=f"*Credit For Sophia's Devs*\n"
+            text=f"*Credit For Bruce's Devs*\n"
             f"\nHere Some Developers Helping in Making The Bruce lee Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Dihan", url="https://t.me/liu_WULANG_MONKES"),
-                    InlineKeyboardButton(text="Inuka", url="https://t.me/liu_WULANG_MONKES"),
+                    InlineKeyboardButton(text="Hate", url="https://t.me/X_Hate"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/liu_WULANG_MONKES"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="sophia_basichelp"),
@@ -789,10 +789,10 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I'm Online Now! 💫 | Join my Group @SophiaSupport_Official ❤")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I'm Online Now! 💫 | Join my Group @liu_WULANG_MONKES ❤")
         except Unauthorized:
             LOGGER.warning(
-                "Bot isnt able to send message to Support Group, go and check!.| Support Group @SophiaSupport_Official ❤"
+                "Bot isnt able to send message to Support Group, go and check!.| Support Group @liu_WULANG_MONKES ❤"
             )
         except BadRequest as e:
             LOGGER.warning(e.message)
